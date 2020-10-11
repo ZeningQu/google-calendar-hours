@@ -51,6 +51,8 @@ define([
       var rangeObj = this.model.selectedRange.getRangeObj();
       var data = calendar.getHours(rangeObj);
       var hours = Math.round(data.total*100)/100;
+      console.log('hours ', hours)
+      
       var range = "";
       var $showDetails;
 
